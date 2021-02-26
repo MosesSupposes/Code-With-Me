@@ -1,14 +1,23 @@
 body {
-  margin: 0;
-  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	margin: 0;
+	font-family: -apple-system, system-ui, "Segoe UI", Helvetica,
+		Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol";
 }
 
 main {
-  padding: 20px;
+	padding: 20px;
 }
 
-.counter {
-  padding: 20px;
-  display: inline-block;
+.main-container {
+	padding: 1.5rem;
+}
+
+.main-title {
+	font-weight: bold;
+}
+
+.join-meeting-btn {
+	font-size: 1.7rem;
+	padding: 1rem 1.25rem;
 }
