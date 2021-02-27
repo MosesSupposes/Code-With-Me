@@ -1,8 +1,3 @@
-type roomId = string;
-type action =
-  | JoinRoom(roomId)
-  | CreateRoom;
-
 [@react.component]
 let make = () => {
   <main className="main-container">
